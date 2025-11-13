@@ -4,8 +4,7 @@ import mongoose from "mongoose"
 import cors from "cors"
 
 mongoose.Promise=global.Promise
-mongoose.connect('mongodb+srv://alanlopez320_db_user:<rFZ78k9kL6ZB5lN2>@cluster0.drbpq9u.mongodb.net/?appName=Cluster0')
-
+mongoose.connect('mongodb+srv://alanlopez320:rFZ78k9kL6ZB5lN2@cluster0.drbpq9u.mongodb.net/restapi?appName=Cluster0')
 
 const app = express();
 
