@@ -1,0 +1,36 @@
+HACER LAS REQUEST DE 
+
+delete
+find
+put (editar)
+
+REACT
+USAMOS LOS COMANDOS
+ sudo npm install -g create-react-app
+ sudo create-react-app cliente-react 
+
+ creamos css/ponemosLoDeMike
+
+ creamos /component
+ creamos /config
+
+ borramos todo  lo que no sea js. dejamos los js (app.css y index.css)
+
+ creamos dos nuevas carpetas en 
+ /component
+    /client
+    /layout
+
+En /config
+    creamos 
+        axios.js
+
+        import axios from axios
+
+        const clienteAxios=axios.create({
+            baseURL:"http://localhost:3001"
+        })
+
+        //cuadno la subamos a render. aqui debemos de cambiar la direccion por la que nos de render
+        export default clienteAxios
+
